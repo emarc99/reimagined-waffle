@@ -21,6 +21,21 @@ CapSpend Arc is an autonomous corporate spending assistant purpose-built for the
 
 ---
 
+## 📊 Written Summary of Progress
+
+### 🚀 What’s Working Today:
+- **Circle Developer-Controlled Wallet Integration**: Generated and registered Circle entity secret ciphertext & initialized a Developer-Controlled Wallet on Arc Testnet ([`0xfd701ef535647a4d502baf960a971c7dfb698176`](https://testnet.arcscan.app/address/0xfd701ef535647a4d502baf960a971c7dfb698176)).
+- **On-Chain Smart Contract Deployment**: Deployed contract templates natively on Arc Testnet via **Circle Smart Contract Platform SDK** (`@circle-fin/smart-contract-platform`), verified on ArcScan ([`0x040456b7c43090c5ea912826f04deb5575438b0a`](https://testnet.arcscan.app/address/0x040456b7c43090c5ea912826f04deb5575438b0a)).
+- **AI Policy Evaluation Engine**: OpenAI (`gpt-4o-mini`) agent that ingests natural language spending requests and evaluates them against department budget policies (`Engineering: $500`, `Marketing: $300`, `Sales: $1,000`, `Operations: $400`).
+- **Autonomous On-Chain USDC Settlement**: Real sub-second USDC transfer execution on Arc Testnet via **Circle Developer-Controlled Wallets SDK** (`@circle-fin/developer-controlled-wallets`).
+- **Dark-Themed React Dashboard**: Full web UI displaying live Circle treasury balances, interactive spend request form, AI decision breakdown, and real-time ArcScan transaction feed.
+
+### 🔮 What’s Next:
+- **Cross-Chain Liquidity**: Integrating Circle’s **App Kit Unified Balance** for cross-chain USDC liquidity sourcing.
+- **Agent Interoperability**: Implementing **ERC-8004 On-Chain Agent Registration** & **ERC-8183 Escrow Job Settlement** for agent-to-agent procurement.
+
+---
+
 ## 🏗️ Architecture
 
 ```
@@ -50,8 +65,8 @@ CapSpend Arc is an autonomous corporate spending assistant purpose-built for the
 ```ini
 CIRCLE_API_KEY=YOUR_CIRCLE_API_KEY
 CIRCLE_ENTITY_SECRET=YOUR_REGISTERED_ENTITY_SECRET
-WALLET_ID=db28a671-1586-515e-9d5b-6a2712ce9667
-WALLET_ADDRESS=0xfd701ef535647a4d502baf960a971c7dfb698176
+WALLET_ID=YOUR_CIRCLE_WALLET_ID_HERE
+WALLET_ADDRESS=YOUR_CIRCLE_WALLET_ADDRESS_HERE
 OPENAI_API_KEY=sk-proj-...
 ```
 
@@ -67,7 +82,7 @@ npm run deploy-contract
 ```bash
 cd backend
 npm run dev
-# Starts server on http://localhost:3001
+# Starts server on http://localhost:3002
 ```
 
 ### 4. Run React Dashboard
