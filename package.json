@@ -1,0 +1,23 @@
+{
+  "name": "capspend-arc",
+  "version": "1.0.0",
+  "description": "CapSpend Arc - Agentic Corporate Treasury & Spend Governance on Arc Testnet via Circle Developer-Controlled Wallets",
+  "license": "ISC",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "create-wallet": "tsx --env-file=.env create-wallet.ts",
+    "register-secret": "tsx --env-file=.env register-entity-secret.ts",
+    "deploy-contract": "tsx --env-file=.env deploy-contract.ts",
+    "compile": "hardhat compile"
+  },
+  "dependencies": {
+    "@circle-fin/developer-controlled-wallets": "^10.8.0",
+    "@circle-fin/smart-contract-platform": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.23.5",
+    "typescript": "^5.9.3"
+  }
+}
