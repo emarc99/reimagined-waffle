@@ -21,6 +21,28 @@ CapSpend Arc is an autonomous corporate spending assistant purpose-built for the
 
 ---
 
+##  Developed UI
+
+### Success Scenario
+
+<img width="1541" height="947" alt="Screenshot 2026-08-03 125706" src="https://github.com/user-attachments/assets/d14ea33a-0048-41b2-b378-6df151dbd464" />
+
+
+<img width="1547" height="942" alt="Screenshot 2026-08-03 125729" src="https://github.com/user-attachments/assets/78828960-0d19-45a1-98e4-8551f163d56a" />
+
+
+
+### Failure Scenario
+
+
+<img width="1537" height="948" alt="Screenshot 2026-08-03 125755" src="https://github.com/user-attachments/assets/62978ba5-db0b-4220-9210-b05e11d301c5" />
+
+
+<img width="1544" height="945" alt="Screenshot 2026-08-03 125812" src="https://github.com/user-attachments/assets/ba733ffc-ffc0-4399-a93b-b0c15d6c015d" />
+
+
+---
+
 ## 📊 Written Summary of Progress
 
 ### 🚀 What’s Working Today:
